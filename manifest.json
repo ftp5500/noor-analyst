@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Table to Excel",
+  "version": "1.0",
+  "description": "Extract table data and convert to Excel",
+  "permissions": [
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://noor.moe.gov.sa/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://noor.moe.gov.sa/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
+
+

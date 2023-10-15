@@ -1,0 +1,21 @@
+{
+  "name": "noor-analays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cubejs-client/core": "^0.31.0",
+    "chart.js": "^4.0.0",
+    "table2excel": "^1.0.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
